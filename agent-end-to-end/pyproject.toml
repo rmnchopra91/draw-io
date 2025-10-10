@@ -1,0 +1,17 @@
+[project]
+name = "agent-end-to-end"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.27.0",
+    "langchain>=0.2.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+# Allow uv to manage virtual environments automatically
+index-url = "https://pypi.org/simple"

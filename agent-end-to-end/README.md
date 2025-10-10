@@ -1,0 +1,11 @@
+Here’s how we’ll proceed (step plan):
+ - 1. Initialize the FastAPI base app — create app.py and main.py inside src/api.
+ - 2. Add routes folder — create one sample route (e.g. /health) to verify FastAPI runs.
+ - 3. Setup LangChain reusable agent factory in src/agents/factory.py and base.py.
+ - 4. Integrate OpenAI key — use environment variable injection from GitHub Actions.
+ - 5. Add prompt loading logic from config/prompts/.
+ - 6. Add Dockerfile + uv setup (pyproject.toml, .dockerignore).
+ - 7. Create K8s YAML for deployment + service.
+ - 8. Add GitHub Actions workflow for CI/CD.
+ - 9. Integrate AWS CDK for infrastructure automation.
+ - 10. Extend to MCP framework later.

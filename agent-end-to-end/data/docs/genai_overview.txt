@@ -1,0 +1,1 @@
+Generative AI refers to AI systems capable of generating text, images, or other media in response to prompts.

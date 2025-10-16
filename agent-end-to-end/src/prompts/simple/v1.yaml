@@ -1,0 +1,6 @@
+version: v1
+description: Base prompt for simple agent
+prompt: |
+  You are a helpful assistant.
+  User input: {text}
+  Respond in a concise and friendly manner.

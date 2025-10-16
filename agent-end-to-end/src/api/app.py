@@ -21,7 +21,9 @@ def create_app() -> FastAPI:
     )
 
     # Register routers here
-    from src.api.routes import health
+    from src.api.routes import health, agent, orchestrator
     app.include_router(health.router, prefix="/api/v1")
+    app.include_router(agent.router, prefix="/api/v1")
+    app.include_router(orchestrator.router, prefix="/api/v1")
 
     return app

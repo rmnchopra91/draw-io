@@ -1,0 +1,2 @@
+LangChain is a framework for building applications powered by language models. 
+It helps developers connect LLMs to data sources, APIs, and custom logic.

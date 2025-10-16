@@ -1,0 +1,2487 @@
+{
+  "nodes": [
+    {
+      "id": "470330c5-9e8f-4525-929c-3e3350536573",
+      "type": "dialogue_entry",
+      "position": {
+        "x": -13.921417167448027,
+        "y": -516.457644632287
+      },
+      "data": {
+        "number": 13
+      },
+      "measured": {
+        "width": 405,
+        "height": 98
+      },
+      "selected": false
+    },
+    {
+      "id": "e2cf6d64-a716-4ccc-b385-bc1302d046b5",
+      "type": "dialogue_node",
+      "position": {
+        "x": 0.9187685257186331,
+        "y": -251.22250756363235
+      },
+      "data": {
+        "number": 14,
+        "responses": [
+          {
+            "id": "170af426-e377-4cb7-90bf-b5eff1c581b7",
+            "content": "Yes",
+            "happy": false
+          },
+          {
+            "id": "e1018c60-d713-4315-bc9f-f1792fe221da",
+            "content": "No",
+            "happy": false
+          },
+          {
+            "id": "51edb1a6-a2c0-488b-9859-0ebed8eb7ed6",
+            "content": "stop",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": false,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Hi {first_name}, this is Ava with OnTrac Recruiting following up on your application for the Package Handler role at our \nFontana, CA 92335 location. We are urgently hiring. Reply YES to begin a quick 3-minute Ai powered text screen. Please complete within 24 hours to be considered. Reply STOP to unsubscribe. Message and data rates may apply.",
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 545,
+        "height": 415
+      },
+      "selected": false
+    },
+    {
+      "id": "ac5f44cd-1e07-4136-8a6b-6c0945539265",
+      "type": "end_call",
+      "position": {
+        "x": -846.0313250926799,
+        "y": 1041.0714215280002
+      },
+      "data": {
+        "number": 21,
+        "dynamic": false,
+        "content": "Okay, no problem. One of our recruiters will reach out. Have a nice day."
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "type": "dialogue_node",
+      "position": {
+        "x": 66.4787988406618,
+        "y": 1897.1562691495214
+      },
+      "data": {
+        "number": 27,
+        "responses": [
+          {
+            "id": "3b64944f-7fbd-4c09-9448-6f59604549dc",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "ce106a1e-3664-4de4-ada9-98c2611a53e5",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "d73ccf6f-c374-4ae0-8bc9-64a24a3dbf63",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "7db18534-0dd1-4f17-a572-4b59318c196f",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "56b1faa3-71a9-4f24-bf54-bf83a63ebff9",
+            "content": "Yeah",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "As a Warehouse Package Handler, you’ll help unload trailers, sort packages by zip codes, and load trucks for deliveries, while prioritizing safety and teamwork to ensure efficient operations. Do you have experience working in a warehouse?  \n\n",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 594,
+        "height": 400
+      },
+      "selected": true
+    },
+    {
+      "id": "5a3917ef-a8c7-42c7-8ffe-d7899383ba95",
+      "type": "dialogue_node",
+      "position": {
+        "x": 834.1164439223916,
+        "y": 2626.0763319770676
+      },
+      "data": {
+        "number": 28,
+        "responses": [
+          {
+            "id": "342e63c2-5220-4b3e-95d6-7374ddef1813",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "What work experience do you have?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "55bce465-497b-4f33-9185-16e22551a461",
+      "type": "dialogue_node",
+      "position": {
+        "x": -204.2014251898546,
+        "y": 3512.0749599244778
+      },
+      "data": {
+        "number": 29,
+        "responses": [
+          {
+            "id": "4334acd5-0357-4a68-951b-47b9ed338765",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "e1135e18-b9f0-4385-b036-2dda2fa33458",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "41f9e2d7-2935-4796-b21a-ebc71b40e3b9",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "5886c749-b96e-4e96-8df2-86a8916b1bb9",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "d3d606d6-4481-4dce-9da2-c6d74df3f8fe",
+            "content": "Yeah",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "This position requires you to regularly be lifting, pushing and pulling up to 35 pounds. You may occasionally carry up to 50 pounds and may occasionally push or pull up to 150 pounds, using a pallet jack or gaylords to transport large packages. Are you comfortable with the lifting requirements?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 594,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "type": "dialogue_node",
+      "position": {
+        "x": -488.09300334893794,
+        "y": 4655.559698551492
+      },
+      "data": {
+        "number": 32,
+        "responses": [
+          {
+            "id": "8ba298a4-0356-4daf-83b4-d6b043604caa",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "2047017f-b5b8-435e-8e13-33ae26d01652",
+            "content": "Date",
+            "happy": false
+          },
+          {
+            "id": "9eeb705f-fe68-4a44-881c-950d4df8ebbf",
+            "content": "Time",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "If within the next 24 hrs or within 48hrs or within 72 hours or anytime or  asap or tomorrow, then bucket 1. If within 4-days or longer, then bucket 3.",
+        "content": "If offered the position, what is the earliest date you can start?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 448,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "type": "dialogue_node",
+      "position": {
+        "x": -531.0222597526323,
+        "y": 5314.334487823116
+      },
+      "data": {
+        "number": 34,
+        "responses": [
+          {
+            "id": "517daab6-f66a-4b22-abb8-831da21fbe70",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "2fa74e5d-b19c-4f06-a23e-dc8c4b57d31e",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "3bcab4c3-26c6-48f3-88fd-cc3b6f017954",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "21f6a450-758e-4bc4-961e-4a72795a746b",
+            "content": "Yeah",
+            "happy": false
+          },
+          {
+            "id": "48f54b57-48fe-4abb-bec8-71bfb2facf5b",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Are you currently working another job?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 594,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "e074ba20-f4c2-4514-8124-d97dd897cc82",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1180.0704415783075,
+        "y": 5781.312000889466
+      },
+      "data": {
+        "number": 35,
+        "responses": [
+          {
+            "id": "f5a1d072-794b-45ba-8082-d155979f5929",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Need  a job",
+          "need better job"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "If “I’m looking for a better job” or “I need a job,” then bucket 1. If “I’m looking for a 2nd job” or “I want to work 2 jobs,” then bucket 2.",
+        "content": "Why are you looking for a new job?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "1510a48b-82f1-4ba7-89fc-09da78ae970c",
+      "type": "dialogue_node",
+      "position": {
+        "x": 87.090497951862,
+        "y": 5898.024192688295
+      },
+      "data": {
+        "number": 36,
+        "responses": [
+          {
+            "id": "91caccb1-ac02-4468-a34a-cb3baa260f3e",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Why did you leave your last job?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "type": "dialogue_node",
+      "position": {
+        "x": -632.5496308406446,
+        "y": 6624.601488052733
+      },
+      "data": {
+        "number": 37,
+        "responses": [
+          {
+            "id": "765a5f20-bd27-4d14-87ed-1a3e4b6420e6",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "4300fbd3-ff3e-4d14-8b47-30958004aa89",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "0e44ac70-194f-4e8f-8125-bf8b79bca015",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "706f0227-30c2-4686-a318-c6be767ffb01",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "4eac1afc-2cd5-4d48-883a-fc1f6d7fd9dd",
+            "content": "Yeah",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "If No or none or  0 days or 1 day or 2 days, then bucket 1. If 3 days or more, then bucket 3.",
+        "content": "Do you need any time off within the next 3 months?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 594,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "3cebd5e2-2951-4fc5-80aa-07c84cfb388c",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1648.588273980624,
+        "y": 7280.330629171644
+      },
+      "data": {
+        "number": 38,
+        "responses": [
+          {
+            "id": "046280a1-87bc-4016-9456-41808a087f81",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Please provide the dates that you will need time off.",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "type": "dialogue_node",
+      "position": {
+        "x": -597.9178924382097,
+        "y": 7644.871642297798
+      },
+      "data": {
+        "number": 39,
+        "responses": [
+          {
+            "id": "43cf3305-0be3-4378-afce-9a460d844f89",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "6fe94e21-60d3-443c-87d6-a34c51870992",
+            "content": "Days",
+            "happy": false
+          },
+          {
+            "id": "bdae00eb-ccc9-4450-a7ac-3daf3e553412",
+            "content": "Times",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "includedInPrompt": true,
+        "content": "This is a part-time position. The hours are 5:30 AM to 9:30 AM or until end of shift. We have 3 shift options:\n1) Sunday – Thursday\n2) Tuesday – Saturday\n3) Friday – Monday\nWhich option works best for you?",
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 458,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "3e5c7b31-3b52-425e-be9b-885499d4c290",
+      "type": "dialogue_node",
+      "position": {
+        "x": -623.7178791549477,
+        "y": 8243.173680509646
+      },
+      "data": {
+        "number": 40,
+        "responses": [
+          {
+            "id": "afc0fca5-0811-4611-a474-b27b875f7258",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "c3b8d434-d39b-42fb-bb90-a49f072b62bf",
+            "content": "number",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "What hourly pay rate are you looking for at this time?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "1aef9ddf-9dd6-4b78-a668-b7a4703b6a39",
+      "type": "dialogue_node",
+      "position": {
+        "x": -798.6774355800495,
+        "y": 9302.517695922772
+      },
+      "data": {
+        "number": 41,
+        "responses": [
+          {
+            "id": "ce6e3eed-0b18-455d-9036-8db86c726335",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "If 1-15 mins away, then bucket 1. If 15-30minutes away, then bucket 2, if more than 30 minutes away, then bucket 3 ",
+        "content": "Our warehouse is located at 9774 Calabash Ave Fontana, CA 92335. How far of a commute is that for you?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "type": "dialogue_node",
+      "position": {
+        "x": -905.9195417387776,
+        "y": 9990.098032392112
+      },
+      "data": {
+        "number": 42,
+        "responses": [
+          {
+            "id": "4ad04aae-f6f1-4e0d-aa92-0ad2e099563b",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "9affb7d6-1418-406c-bcb9-1a4b0ca3f716",
+            "content": "Yes",
+            "happy": false
+          },
+          {
+            "id": "189a9e84-1244-4d54-ab79-53dffc160952",
+            "content": "No",
+            "happy": false
+          },
+          {
+            "id": "e139ab6c-80f0-4715-8351-b77c147c9d90",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "5565daca-8020-4435-a8dc-764f87d5900f",
+            "content": "Yeah",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "includedInPrompt": true,
+        "content": "Do you have reliable transportation?",
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 597,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "type": "dialogue_node",
+      "position": {
+        "x": -974.3535412976071,
+        "y": 10719.274096656882
+      },
+      "data": {
+        "number": 43,
+        "responses": [
+          {
+            "id": "e02f69d4-57fd-4e4c-a056-1d1e80f70361",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "a1820799-7361-4549-8eb8-5534df43f948",
+            "content": "yes",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": false,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Have you ever worked for OnTrac or Lasership before, whether directly or through an agency?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "16d80405-4a94-4fd2-882b-4c27189bf777",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1719.4063586047432,
+        "y": 11364.837151050777
+      },
+      "data": {
+        "number": 44,
+        "responses": [
+          {
+            "id": "f641177b-c842-4450-b7fe-9ec420906f90",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "includedInPrompt": true,
+        "content": "When did you work for us?",
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "52ea942b-c3eb-4a2c-b806-7dfb1301f423",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1780.960585355179,
+        "y": 12043.38930264038
+      },
+      "data": {
+        "number": 47,
+        "responses": [
+          {
+            "id": "bece1737-af72-4697-a564-ac0e4f7b5eb7",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "What location did you work at?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "type": "dialogue_node",
+      "position": {
+        "x": -722.0604360473276,
+        "y": 11746.93815319685
+      },
+      "data": {
+        "number": 48,
+        "responses": [
+          {
+            "id": "f49bc869-e8c2-4071-b8cd-bda745006c00",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "5752dacd-6032-44b7-ba71-7c377245ba2d",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "0e30b1bf-0c7f-4d34-a551-c0d98d01841d",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Do you know anyone currently employed by or providing services to the company?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 422,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "c38c36af-df05-4915-9673-8cfbe133aa5d",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1875.9778025535832,
+        "y": 12809.95045091626
+      },
+      "data": {
+        "number": 49,
+        "responses": [
+          {
+            "id": "1255d297-68d3-4924-9d82-751a12f593d0",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "0af9a891-b2b3-40fb-98a0-eecffb295c0f",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "14c3e732-9b7f-4fb5-af2d-f1a0ed3d8d6c",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Was it with an agency?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 422,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "2678acff-a08c-489c-8ecb-1ba8d8383596",
+      "type": "dialogue_node",
+      "position": {
+        "x": -2109.4065349613784,
+        "y": 13554.896593775045
+      },
+      "data": {
+        "number": 50,
+        "responses": [
+          {
+            "id": "8b02d7e8-1e86-43a4-9d84-5cd46b64ec1c",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "What was the name of the agency?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "d6c92e7b-5ad3-461e-8c6c-890ea8d400a1",
+      "type": "dialogue_node",
+      "position": {
+        "x": -2178.4842606520847,
+        "y": 14317.521197088565
+      },
+      "data": {
+        "number": 51,
+        "responses": [
+          {
+            "id": "72041863-0d4f-4064-b32c-09ae79f49d8a",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Why did you leave?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "e8021d9b-4e52-4f20-b998-765cbcedb645",
+      "type": "dialogue_node",
+      "position": {
+        "x": -2358.442785679199,
+        "y": 15021.112540015
+      },
+      "data": {
+        "number": 52,
+        "responses": [
+          {
+            "id": "0fd65d5e-44fa-42f4-b2a4-0a30ab08a7d0",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Why are you interested in coming back?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "590b8c4b-fe91-4a2d-8803-bedf2477e21b",
+      "type": "dialogue_node",
+      "position": {
+        "x": 202.65308869919943,
+        "y": 12265.425942942065
+      },
+      "data": {
+        "number": 54,
+        "responses": [
+          {
+            "id": "64c44af2-402f-4ca9-b7a7-4b071130ad27",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": true,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "What is the person's name and what is your relationship to them?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 405,
+        "height": 424
+      },
+      "selected": false
+    },
+    {
+      "id": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "type": "dialogue_node",
+      "position": {
+        "x": -783.4763126523012,
+        "y": 12512.66092934944
+      },
+      "data": {
+        "number": 55,
+        "responses": [
+          {
+            "id": "33ba2b62-7cac-42a6-86a1-5ff167ec855e",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "f1acb575-8c87-4ac1-83d2-144c42eb27b1",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "58784a6b-6fe2-4edb-847b-d6cd8819b3ad",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "a3f0bf5d-37e3-4e67-8c2e-430238a7f752",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "f985dc2d-8bb0-43f7-ac13-289c93708b21",
+            "content": "Yeah",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "If offered the position, are you okay with OnTrac running a criminal background check?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 594,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "type": "dialogue_node",
+      "position": {
+        "x": -831.7068942375768,
+        "y": 13961.807662063113
+      },
+      "data": {
+        "number": 56,
+        "responses": [
+          {
+            "id": "2b2ad023-1c16-43fb-a120-44ce3d0ea08c",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "43a021e3-1041-4874-8408-bde0339ab935",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "f7a6bfce-a6e7-4690-8142-ed39e801a0d0",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "f46d0249-d260-4d98-897d-0c3f2ac1fcbb",
+            "content": "Yup",
+            "happy": false
+          },
+          {
+            "id": "5aec49c7-782f-44bf-aa1e-5e3b9593c365",
+            "content": "Yeah",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Are you legally authorized to work in the United States?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 594,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "553acad6-c6f8-4acc-9030-7f33685eb02c",
+      "type": "end_call",
+      "position": {
+        "x": 95.22012405010179,
+        "y": 13946.784714013294
+      },
+      "data": {
+        "number": 58,
+        "dynamic": false,
+        "content": "This is a requirement of this position. If anything changes in your future, you are welcome reapply. Thank you for your time today. Goodbye"
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "d8fb60c7-6111-47ea-a7d6-95547c3a5742",
+      "type": "end_call",
+      "position": {
+        "x": -491.13323621503673,
+        "y": 14728.830407024529
+      },
+      "data": {
+        "number": 60,
+        "dynamic": false,
+        "content": "This is a requirement of this position. If anything changes in your future, you are welcome reapply. Thank you for your time today. Goodbye"
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1160.243627051127,
+        "y": 14814.400743455839
+      },
+      "data": {
+        "number": 61,
+        "responses": [
+          {
+            "id": "08116c35-f827-40dc-97f2-e0f9671a29b8",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "4111d3c1-a15f-495e-a08d-581f0b57cefe",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "ac338a50-3425-4d48-8719-a2a9b0d8c5fd",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "7bf6a3d1-6b1c-4577-9305-6b9fde7a3208",
+            "content": "Yup",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "If hired, will you be able to provide proof of identity and eligibility to work in the US?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 504,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "15c71839-33ad-43a5-9ddc-3e39656496d4",
+      "type": "end_call",
+      "position": {
+        "x": -735.7641895661001,
+        "y": 15640.1568004066
+      },
+      "data": {
+        "number": 62,
+        "dynamic": false,
+        "content": "This is a requirement of this position. If anything changes in your future, you are welcome reapply. Thank you for your time today. Goodbye."
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1393.6639782937284,
+        "y": 15618.677846560418
+      },
+      "data": {
+        "number": 65,
+        "responses": [
+          {
+            "id": "2477bfb7-e6d5-4a2c-988b-7384eaaa3e09",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "821c8fa0-7bf5-4b2d-8762-f078c2f470d7",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "bb7ac18a-ff1f-42cd-acf9-e323056927a4",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "No"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Will you now or in the future require sponsorship for employment visa status in the United States?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 422,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1107.4029513303803,
+        "y": 16335.695220439538
+      },
+      "data": {
+        "number": 66,
+        "responses": [
+          {
+            "id": "a311898b-7b6f-416b-9f5d-47b4400f5557",
+            "content": "Yes",
+            "happy": false
+          },
+          {
+            "id": "e14e4892-760c-4dd6-a0a5-d375c2cd329b",
+            "content": "No",
+            "happy": false
+          },
+          {
+            "id": "06bfd899-76ef-47f0-8b91-78c1095702a7",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Thank you, that concludes my questions. After we finish today, a recruiter will review our conversation. If you are selected to move forward, a recruiter will reach out to discuss next steps. Does that sound good?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 425,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "type": "dialogue_node",
+      "position": {
+        "x": -2041.604131188128,
+        "y": 17571.88056472456
+      },
+      "data": {
+        "number": 67,
+        "responses": [
+          {
+            "id": "e15b0a5d-c483-47a7-8fc2-3c8ae11960ea",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "afaabf53-e9f8-47a6-b508-9e8357761c55",
+            "content": "Yes",
+            "happy": false
+          },
+          {
+            "id": "445759d3-6ffb-45c4-a94a-c9d8ef7bc9da",
+            "content": "No",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Is there anything you’d like to share about your experience with me, the AI recruiter, so we can continue to improve?\n",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 425,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "9e1a6c40-b850-45f0-874d-e3eb1c75bc84",
+      "type": "end_call",
+      "position": {
+        "x": -1598.0480185469646,
+        "y": 18212.62818153546
+      },
+      "data": {
+        "number": 69,
+        "dynamic": false,
+        "content": "Thank you for your time and for your interest in OnTrac. Best of luck, and we hope to connect again soon!"
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "47b221f1-57aa-4d42-94cb-77a3639226b3",
+      "type": "dialogue_node",
+      "position": {
+        "x": 47.58301444982544,
+        "y": 374.6654847265185
+      },
+      "data": {
+        "number": 70,
+        "responses": [
+          {
+            "id": "1c724f86-75df-45b4-85c4-f928f10ad19f",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "b25b1527-d8c8-46a1-9ddd-ac7fc75f33f1",
+            "content": "human or recruiter",
+            "happy": false
+          },
+          {
+            "id": "e42a30d0-ded6-4f74-84d1-20ad8423b0f7",
+            "content": "Yes",
+            "happy": false
+          },
+          {
+            "id": "22457ed8-112d-44db-ae0a-56dea7d91231",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "This screening confirms details from your application and captures info not shown on paper. Our chat will be documented for the human recruiter to review. If you’d prefer to speak with a recruiter, let me know. Are you ready to continue?",
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 611,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "33325982-6c30-4680-8734-d67675dc39d1",
+      "type": "end_call",
+      "position": {
+        "x": 852.0054264307673,
+        "y": 440.98083641449944
+      },
+      "data": {
+        "number": 71,
+        "dynamic": false,
+        "content": ""
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "58e0116d-b126-4ef7-b61e-bd08f4d06757",
+      "type": "end_call",
+      "position": {
+        "x": 459.983129367229,
+        "y": 4189.156641327046
+      },
+      "data": {
+        "number": 72,
+        "dynamic": false,
+        "content": "This is a requirement of this position. If anything changes in your future, you are welcome to reapply. Thank you for your time today. Goodbye"
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    },
+    {
+      "id": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "type": "dialogue_node",
+      "position": {
+        "x": -1224.229249524644,
+        "y": 17086.21128628956
+      },
+      "data": {
+        "responses": [
+          {
+            "id": "47c26d26-c49f-437e-a601-e34c5c5653f7",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "991e37e3-5001-42bd-961c-fce70c903563",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "8358bf63-6d95-49ed-8065-dd09580aa067",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "content": "Great! Finally, I want to understand how this experience has been for you. On a scale of 1 to 5, 1 being least favorable and 5 being most favorable, how would you rate your experience with me today? ",
+        "number": 74,
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 422,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "13809212-4b38-424a-a2eb-e0418424d067",
+      "type": "report_generation",
+      "position": {
+        "x": -725.2049474843873,
+        "y": 16168.46768572691
+      },
+      "data": {
+        "number": 75
+      },
+      "measured": {
+        "width": 405,
+        "height": 98
+      },
+      "selected": false
+    },
+    {
+      "id": "7daee60e-8415-435e-9185-7fb29e70973e",
+      "type": "dialogue_node",
+      "position": {
+        "x": -270.3877636855571,
+        "y": 8757.165140787414
+      },
+      "data": {
+        "number": 80,
+        "responses": [
+          {
+            "id": "9e695ab7-9dd2-4e67-b84e-37a385abc279",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          },
+          {
+            "id": "aaad4f2e-eaaa-46eb-ab95-386c466c6dd3",
+            "content": "Yes ",
+            "happy": false
+          },
+          {
+            "id": "684c4771-84ae-4097-b5f3-afb65263a742",
+            "content": "No",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "",
+        "includedInPrompt": true,
+        "content": "The pay for this position is $18.50 per hour. Does this work for you?",
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 425,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "40b723e3-0fb8-4848-8dfa-bcf804957f1a",
+      "type": "dialogue_node",
+      "position": {
+        "x": 110.99533553174541,
+        "y": 1100.3451597168078
+      },
+      "data": {
+        "number": 81,
+        "responses": [
+          {
+            "id": "c123273b-f7d2-4d92-8bf1-9867525dbba2",
+            "content": "yes",
+            "happy": false
+          },
+          {
+            "id": "6f3204d9-7b10-4b93-89d4-90005382e66c",
+            "content": "no",
+            "happy": false
+          },
+          {
+            "id": "05558ab9-83cb-4f2d-8c34-2ec63e42cd50",
+            "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+            "happy": false
+          }
+        ],
+        "long": false,
+        "dynamic": false,
+        "keywords": [
+          "Yes"
+        ],
+        "hasAnyResponse": true,
+        "canRevisit": false,
+        "custom_bucketing": "If yes, then bucket 1. If no, then bucket 3.",
+        "content": "Sounds good! Lets get started! Are you at least 18 years old?",
+        "includedInPrompt": true,
+        "custom_answer_extraction": "Candidate's response or 'NA'"
+      },
+      "measured": {
+        "width": 422,
+        "height": 400
+      },
+      "selected": false
+    },
+    {
+      "id": "1933cddc-9cb7-4318-8cdd-2056556daddc",
+      "type": "end_call",
+      "position": {
+        "x": 758.0889256270009,
+        "y": 1672.7161467950948
+      },
+      "data": {
+        "number": 82,
+        "dynamic": false,
+        "content": "This is a requirement of this position. Once you are at least18 years old, you are welcome reapply. Thank you for your time today. Goodbye."
+      },
+      "measured": {
+        "width": 544,
+        "height": 280
+      },
+      "selected": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "sourceHandle": "d571543a-7aed-4794-ae91-6fb7089511b6_res_ce106a1e-3664-4de4-ada9-98c2611a53e5",
+      "target": "5a3917ef-a8c7-42c7-8ffe-d7899383ba95",
+      "id": "xy-edge__d571543a-7aed-4794-ae91-6fb7089511b6d571543a-7aed-4794-ae91-6fb7089511b6_res_ce106a1e-3664-4de4-ada9-98c2611a53e5-5a3917ef-a8c7-42c7-8ffe-d7899383ba95"
+    },
+    {
+      "source": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "sourceHandle": "d571543a-7aed-4794-ae91-6fb7089511b6_res_d73ccf6f-c374-4ae0-8bc9-64a24a3dbf63",
+      "target": "55bce465-497b-4f33-9185-16e22551a461",
+      "id": "xy-edge__d571543a-7aed-4794-ae91-6fb7089511b6d571543a-7aed-4794-ae91-6fb7089511b6_res_d73ccf6f-c374-4ae0-8bc9-64a24a3dbf63-55bce465-497b-4f33-9185-16e22551a461"
+    },
+    {
+      "source": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "sourceHandle": "d571543a-7aed-4794-ae91-6fb7089511b6_res_3b64944f-7fbd-4c09-9448-6f59604549dc",
+      "target": "55bce465-497b-4f33-9185-16e22551a461",
+      "id": "xy-edge__d571543a-7aed-4794-ae91-6fb7089511b6d571543a-7aed-4794-ae91-6fb7089511b6_res_3b64944f-7fbd-4c09-9448-6f59604549dc-55bce465-497b-4f33-9185-16e22551a461"
+    },
+    {
+      "source": "5a3917ef-a8c7-42c7-8ffe-d7899383ba95",
+      "sourceHandle": "5a3917ef-a8c7-42c7-8ffe-d7899383ba95_res_342e63c2-5220-4b3e-95d6-7374ddef1813",
+      "target": "55bce465-497b-4f33-9185-16e22551a461",
+      "id": "xy-edge__5a3917ef-a8c7-42c7-8ffe-d7899383ba955a3917ef-a8c7-42c7-8ffe-d7899383ba95_res_342e63c2-5220-4b3e-95d6-7374ddef1813-55bce465-497b-4f33-9185-16e22551a461"
+    },
+    {
+      "source": "55bce465-497b-4f33-9185-16e22551a461",
+      "sourceHandle": "55bce465-497b-4f33-9185-16e22551a461_res_4334acd5-0357-4a68-951b-47b9ed338765",
+      "target": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "id": "xy-edge__55bce465-497b-4f33-9185-16e22551a46155bce465-497b-4f33-9185-16e22551a461_res_4334acd5-0357-4a68-951b-47b9ed338765-a4140fcc-bd8e-4458-ac54-a062c1f41c94"
+    },
+    {
+      "source": "55bce465-497b-4f33-9185-16e22551a461",
+      "sourceHandle": "55bce465-497b-4f33-9185-16e22551a461_res_41f9e2d7-2935-4796-b21a-ebc71b40e3b9",
+      "target": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "id": "xy-edge__55bce465-497b-4f33-9185-16e22551a46155bce465-497b-4f33-9185-16e22551a461_res_41f9e2d7-2935-4796-b21a-ebc71b40e3b9-a4140fcc-bd8e-4458-ac54-a062c1f41c94"
+    },
+    {
+      "source": "470330c5-9e8f-4525-929c-3e3350536573",
+      "target": "e2cf6d64-a716-4ccc-b385-bc1302d046b5",
+      "id": "xy-edge__470330c5-9e8f-4525-929c-3e3350536573-e2cf6d64-a716-4ccc-b385-bc1302d046b5"
+    },
+    {
+      "source": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "sourceHandle": "a4140fcc-bd8e-4458-ac54-a062c1f41c94_res_8ba298a4-0356-4daf-83b4-d6b043604caa",
+      "target": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "id": "xy-edge__a4140fcc-bd8e-4458-ac54-a062c1f41c94a4140fcc-bd8e-4458-ac54-a062c1f41c94_res_8ba298a4-0356-4daf-83b4-d6b043604caa-934f953c-df8b-4a36-82e1-52d517ae6e8f"
+    },
+    {
+      "source": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "sourceHandle": "934f953c-df8b-4a36-82e1-52d517ae6e8f_res_517daab6-f66a-4b22-abb8-831da21fbe70",
+      "target": "e074ba20-f4c2-4514-8124-d97dd897cc82",
+      "id": "xy-edge__934f953c-df8b-4a36-82e1-52d517ae6e8f934f953c-df8b-4a36-82e1-52d517ae6e8f_res_517daab6-f66a-4b22-abb8-831da21fbe70-e074ba20-f4c2-4514-8124-d97dd897cc82"
+    },
+    {
+      "source": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "sourceHandle": "934f953c-df8b-4a36-82e1-52d517ae6e8f_res_2fa74e5d-b19c-4f06-a23e-dc8c4b57d31e",
+      "target": "1510a48b-82f1-4ba7-89fc-09da78ae970c",
+      "id": "xy-edge__934f953c-df8b-4a36-82e1-52d517ae6e8f934f953c-df8b-4a36-82e1-52d517ae6e8f_res_2fa74e5d-b19c-4f06-a23e-dc8c4b57d31e-1510a48b-82f1-4ba7-89fc-09da78ae970c"
+    },
+    {
+      "source": "e074ba20-f4c2-4514-8124-d97dd897cc82",
+      "sourceHandle": "e074ba20-f4c2-4514-8124-d97dd897cc82_res_f5a1d072-794b-45ba-8082-d155979f5929",
+      "target": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "id": "xy-edge__e074ba20-f4c2-4514-8124-d97dd897cc82e074ba20-f4c2-4514-8124-d97dd897cc82_res_f5a1d072-794b-45ba-8082-d155979f5929-b4ca768a-90e4-4539-8cae-b97fd93f8152"
+    },
+    {
+      "source": "1510a48b-82f1-4ba7-89fc-09da78ae970c",
+      "sourceHandle": "1510a48b-82f1-4ba7-89fc-09da78ae970c_res_91caccb1-ac02-4468-a34a-cb3baa260f3e",
+      "target": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "id": "xy-edge__1510a48b-82f1-4ba7-89fc-09da78ae970c1510a48b-82f1-4ba7-89fc-09da78ae970c_res_91caccb1-ac02-4468-a34a-cb3baa260f3e-b4ca768a-90e4-4539-8cae-b97fd93f8152"
+    },
+    {
+      "source": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "sourceHandle": "b4ca768a-90e4-4539-8cae-b97fd93f8152_res_765a5f20-bd27-4d14-87ed-1a3e4b6420e6",
+      "target": "3cebd5e2-2951-4fc5-80aa-07c84cfb388c",
+      "id": "xy-edge__b4ca768a-90e4-4539-8cae-b97fd93f8152b4ca768a-90e4-4539-8cae-b97fd93f8152_res_765a5f20-bd27-4d14-87ed-1a3e4b6420e6-3cebd5e2-2951-4fc5-80aa-07c84cfb388c"
+    },
+    {
+      "source": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "sourceHandle": "b4ca768a-90e4-4539-8cae-b97fd93f8152_res_4300fbd3-ff3e-4d14-8b47-30958004aa89",
+      "target": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "id": "xy-edge__b4ca768a-90e4-4539-8cae-b97fd93f8152b4ca768a-90e4-4539-8cae-b97fd93f8152_res_4300fbd3-ff3e-4d14-8b47-30958004aa89-df193899-b5da-4a68-a183-1c0e933092ae"
+    },
+    {
+      "source": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "sourceHandle": "b4ca768a-90e4-4539-8cae-b97fd93f8152_res_0e44ac70-194f-4e8f-8125-bf8b79bca015",
+      "target": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "id": "xy-edge__b4ca768a-90e4-4539-8cae-b97fd93f8152b4ca768a-90e4-4539-8cae-b97fd93f8152_res_0e44ac70-194f-4e8f-8125-bf8b79bca015-df193899-b5da-4a68-a183-1c0e933092ae"
+    },
+    {
+      "source": "3cebd5e2-2951-4fc5-80aa-07c84cfb388c",
+      "sourceHandle": "3cebd5e2-2951-4fc5-80aa-07c84cfb388c_res_046280a1-87bc-4016-9456-41808a087f81",
+      "target": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "id": "xy-edge__3cebd5e2-2951-4fc5-80aa-07c84cfb388c3cebd5e2-2951-4fc5-80aa-07c84cfb388c_res_046280a1-87bc-4016-9456-41808a087f81-df193899-b5da-4a68-a183-1c0e933092ae"
+    },
+    {
+      "source": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "sourceHandle": "df193899-b5da-4a68-a183-1c0e933092ae_res_43cf3305-0be3-4378-afce-9a460d844f89",
+      "target": "3e5c7b31-3b52-425e-be9b-885499d4c290",
+      "id": "xy-edge__df193899-b5da-4a68-a183-1c0e933092aedf193899-b5da-4a68-a183-1c0e933092ae_res_43cf3305-0be3-4378-afce-9a460d844f89-3e5c7b31-3b52-425e-be9b-885499d4c290"
+    },
+    {
+      "source": "1aef9ddf-9dd6-4b78-a668-b7a4703b6a39",
+      "sourceHandle": "1aef9ddf-9dd6-4b78-a668-b7a4703b6a39_res_ce6e3eed-0b18-455d-9036-8db86c726335",
+      "target": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "id": "xy-edge__1aef9ddf-9dd6-4b78-a668-b7a4703b6a391aef9ddf-9dd6-4b78-a668-b7a4703b6a39_res_ce6e3eed-0b18-455d-9036-8db86c726335-af04c4b5-755b-44b8-b007-af22759ea861"
+    },
+    {
+      "source": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "sourceHandle": "af04c4b5-755b-44b8-b007-af22759ea861_res_4ad04aae-f6f1-4e0d-aa92-0ad2e099563b",
+      "target": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "id": "xy-edge__af04c4b5-755b-44b8-b007-af22759ea861af04c4b5-755b-44b8-b007-af22759ea861_res_4ad04aae-f6f1-4e0d-aa92-0ad2e099563b-2982e4a3-b9b8-4f0b-b365-a56ad19f5156"
+    },
+    {
+      "source": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "sourceHandle": "af04c4b5-755b-44b8-b007-af22759ea861_res_9affb7d6-1418-406c-bcb9-1a4b0ca3f716",
+      "target": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "id": "xy-edge__af04c4b5-755b-44b8-b007-af22759ea861af04c4b5-755b-44b8-b007-af22759ea861_res_9affb7d6-1418-406c-bcb9-1a4b0ca3f716-2982e4a3-b9b8-4f0b-b365-a56ad19f5156"
+    },
+    {
+      "source": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "sourceHandle": "af04c4b5-755b-44b8-b007-af22759ea861_res_189a9e84-1244-4d54-ab79-53dffc160952",
+      "target": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "id": "xy-edge__af04c4b5-755b-44b8-b007-af22759ea861af04c4b5-755b-44b8-b007-af22759ea861_res_189a9e84-1244-4d54-ab79-53dffc160952-2982e4a3-b9b8-4f0b-b365-a56ad19f5156"
+    },
+    {
+      "source": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "sourceHandle": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156_res_a1820799-7361-4549-8eb8-5534df43f948",
+      "target": "16d80405-4a94-4fd2-882b-4c27189bf777",
+      "id": "xy-edge__2982e4a3-b9b8-4f0b-b365-a56ad19f51562982e4a3-b9b8-4f0b-b365-a56ad19f5156_res_a1820799-7361-4549-8eb8-5534df43f948-16d80405-4a94-4fd2-882b-4c27189bf777"
+    },
+    {
+      "source": "16d80405-4a94-4fd2-882b-4c27189bf777",
+      "sourceHandle": "16d80405-4a94-4fd2-882b-4c27189bf777_res_f641177b-c842-4450-b7fe-9ec420906f90",
+      "target": "52ea942b-c3eb-4a2c-b806-7dfb1301f423",
+      "id": "xy-edge__16d80405-4a94-4fd2-882b-4c27189bf77716d80405-4a94-4fd2-882b-4c27189bf777_res_f641177b-c842-4450-b7fe-9ec420906f90-52ea942b-c3eb-4a2c-b806-7dfb1301f423"
+    },
+    {
+      "source": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "sourceHandle": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156_res_e02f69d4-57fd-4e4c-a056-1d1e80f70361",
+      "target": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "id": "xy-edge__2982e4a3-b9b8-4f0b-b365-a56ad19f51562982e4a3-b9b8-4f0b-b365-a56ad19f5156_res_e02f69d4-57fd-4e4c-a056-1d1e80f70361-3c7c33b0-af38-4629-ac4d-67f679e8ddfc"
+    },
+    {
+      "source": "52ea942b-c3eb-4a2c-b806-7dfb1301f423",
+      "sourceHandle": "52ea942b-c3eb-4a2c-b806-7dfb1301f423_res_bece1737-af72-4697-a564-ac0e4f7b5eb7",
+      "target": "c38c36af-df05-4915-9673-8cfbe133aa5d",
+      "id": "xy-edge__52ea942b-c3eb-4a2c-b806-7dfb1301f42352ea942b-c3eb-4a2c-b806-7dfb1301f423_res_bece1737-af72-4697-a564-ac0e4f7b5eb7-c38c36af-df05-4915-9673-8cfbe133aa5d"
+    },
+    {
+      "source": "c38c36af-df05-4915-9673-8cfbe133aa5d",
+      "sourceHandle": "c38c36af-df05-4915-9673-8cfbe133aa5d_res_0af9a891-b2b3-40fb-98a0-eecffb295c0f",
+      "target": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "id": "xy-edge__c38c36af-df05-4915-9673-8cfbe133aa5dc38c36af-df05-4915-9673-8cfbe133aa5d_res_0af9a891-b2b3-40fb-98a0-eecffb295c0f-3c7c33b0-af38-4629-ac4d-67f679e8ddfc"
+    },
+    {
+      "source": "c38c36af-df05-4915-9673-8cfbe133aa5d",
+      "sourceHandle": "c38c36af-df05-4915-9673-8cfbe133aa5d_res_14c3e732-9b7f-4fb5-af2d-f1a0ed3d8d6c",
+      "target": "2678acff-a08c-489c-8ecb-1ba8d8383596",
+      "id": "xy-edge__c38c36af-df05-4915-9673-8cfbe133aa5dc38c36af-df05-4915-9673-8cfbe133aa5d_res_14c3e732-9b7f-4fb5-af2d-f1a0ed3d8d6c-2678acff-a08c-489c-8ecb-1ba8d8383596"
+    },
+    {
+      "source": "c38c36af-df05-4915-9673-8cfbe133aa5d",
+      "sourceHandle": "c38c36af-df05-4915-9673-8cfbe133aa5d_res_1255d297-68d3-4924-9d82-751a12f593d0",
+      "target": "2678acff-a08c-489c-8ecb-1ba8d8383596",
+      "id": "xy-edge__c38c36af-df05-4915-9673-8cfbe133aa5dc38c36af-df05-4915-9673-8cfbe133aa5d_res_1255d297-68d3-4924-9d82-751a12f593d0-2678acff-a08c-489c-8ecb-1ba8d8383596"
+    },
+    {
+      "source": "2678acff-a08c-489c-8ecb-1ba8d8383596",
+      "sourceHandle": "2678acff-a08c-489c-8ecb-1ba8d8383596_res_8b02d7e8-1e86-43a4-9d84-5cd46b64ec1c",
+      "target": "d6c92e7b-5ad3-461e-8c6c-890ea8d400a1",
+      "id": "xy-edge__2678acff-a08c-489c-8ecb-1ba8d83835962678acff-a08c-489c-8ecb-1ba8d8383596_res_8b02d7e8-1e86-43a4-9d84-5cd46b64ec1c-d6c92e7b-5ad3-461e-8c6c-890ea8d400a1"
+    },
+    {
+      "source": "d6c92e7b-5ad3-461e-8c6c-890ea8d400a1",
+      "sourceHandle": "d6c92e7b-5ad3-461e-8c6c-890ea8d400a1_res_72041863-0d4f-4064-b32c-09ae79f49d8a",
+      "target": "e8021d9b-4e52-4f20-b998-765cbcedb645",
+      "id": "xy-edge__d6c92e7b-5ad3-461e-8c6c-890ea8d400a1d6c92e7b-5ad3-461e-8c6c-890ea8d400a1_res_72041863-0d4f-4064-b32c-09ae79f49d8a-e8021d9b-4e52-4f20-b998-765cbcedb645"
+    },
+    {
+      "source": "e8021d9b-4e52-4f20-b998-765cbcedb645",
+      "sourceHandle": "e8021d9b-4e52-4f20-b998-765cbcedb645_res_0fd65d5e-44fa-42f4-b2a4-0a30ab08a7d0",
+      "target": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "id": "xy-edge__e8021d9b-4e52-4f20-b998-765cbcedb645e8021d9b-4e52-4f20-b998-765cbcedb645_res_0fd65d5e-44fa-42f4-b2a4-0a30ab08a7d0-3c7c33b0-af38-4629-ac4d-67f679e8ddfc"
+    },
+    {
+      "source": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "sourceHandle": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc_res_f49bc869-e8c2-4071-b8cd-bda745006c00",
+      "target": "590b8c4b-fe91-4a2d-8803-bedf2477e21b",
+      "id": "xy-edge__3c7c33b0-af38-4629-ac4d-67f679e8ddfc3c7c33b0-af38-4629-ac4d-67f679e8ddfc_res_f49bc869-e8c2-4071-b8cd-bda745006c00-590b8c4b-fe91-4a2d-8803-bedf2477e21b"
+    },
+    {
+      "source": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "sourceHandle": "6351dce6-c38f-48a5-a959-09d102bb1073_res_33ba2b62-7cac-42a6-86a1-5ff167ec855e",
+      "target": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "id": "xy-edge__6351dce6-c38f-48a5-a959-09d102bb10736351dce6-c38f-48a5-a959-09d102bb1073_res_33ba2b62-7cac-42a6-86a1-5ff167ec855e-21ab94b2-85e0-48e8-b404-85effce98816"
+    },
+    {
+      "source": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "sourceHandle": "6351dce6-c38f-48a5-a959-09d102bb1073_res_58784a6b-6fe2-4edb-847b-d6cd8819b3ad",
+      "target": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "id": "xy-edge__6351dce6-c38f-48a5-a959-09d102bb10736351dce6-c38f-48a5-a959-09d102bb1073_res_58784a6b-6fe2-4edb-847b-d6cd8819b3ad-21ab94b2-85e0-48e8-b404-85effce98816"
+    },
+    {
+      "source": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "sourceHandle": "21ab94b2-85e0-48e8-b404-85effce98816_res_f7a6bfce-a6e7-4690-8142-ed39e801a0d0",
+      "target": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "id": "xy-edge__21ab94b2-85e0-48e8-b404-85effce9881621ab94b2-85e0-48e8-b404-85effce98816_res_f7a6bfce-a6e7-4690-8142-ed39e801a0d0-9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b"
+    },
+    {
+      "source": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "sourceHandle": "21ab94b2-85e0-48e8-b404-85effce98816_res_2b2ad023-1c16-43fb-a120-44ce3d0ea08c",
+      "target": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "id": "xy-edge__21ab94b2-85e0-48e8-b404-85effce9881621ab94b2-85e0-48e8-b404-85effce98816_res_2b2ad023-1c16-43fb-a120-44ce3d0ea08c-9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b"
+    },
+    {
+      "source": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "sourceHandle": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_08116c35-f827-40dc-97f2-e0f9671a29b8",
+      "target": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "id": "xy-edge__9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_08116c35-f827-40dc-97f2-e0f9671a29b8-6186407e-233a-40e3-881f-5d4d76e5574c"
+    },
+    {
+      "source": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "sourceHandle": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_ac338a50-3425-4d48-8719-a2a9b0d8c5fd",
+      "target": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "id": "xy-edge__9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_ac338a50-3425-4d48-8719-a2a9b0d8c5fd-6186407e-233a-40e3-881f-5d4d76e5574c"
+    },
+    {
+      "source": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "sourceHandle": "d571543a-7aed-4794-ae91-6fb7089511b6_res_7db18534-0dd1-4f17-a572-4b59318c196f",
+      "target": "55bce465-497b-4f33-9185-16e22551a461",
+      "id": "xy-edge__d571543a-7aed-4794-ae91-6fb7089511b6d571543a-7aed-4794-ae91-6fb7089511b6_res_7db18534-0dd1-4f17-a572-4b59318c196f-55bce465-497b-4f33-9185-16e22551a461"
+    },
+    {
+      "source": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "sourceHandle": "d571543a-7aed-4794-ae91-6fb7089511b6_res_56b1faa3-71a9-4f24-bf54-bf83a63ebff9",
+      "target": "55bce465-497b-4f33-9185-16e22551a461",
+      "id": "xy-edge__d571543a-7aed-4794-ae91-6fb7089511b6d571543a-7aed-4794-ae91-6fb7089511b6_res_56b1faa3-71a9-4f24-bf54-bf83a63ebff9-55bce465-497b-4f33-9185-16e22551a461"
+    },
+    {
+      "source": "55bce465-497b-4f33-9185-16e22551a461",
+      "sourceHandle": "55bce465-497b-4f33-9185-16e22551a461_res_5886c749-b96e-4e96-8df2-86a8916b1bb9",
+      "target": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "id": "xy-edge__55bce465-497b-4f33-9185-16e22551a46155bce465-497b-4f33-9185-16e22551a461_res_5886c749-b96e-4e96-8df2-86a8916b1bb9-a4140fcc-bd8e-4458-ac54-a062c1f41c94"
+    },
+    {
+      "source": "55bce465-497b-4f33-9185-16e22551a461",
+      "sourceHandle": "55bce465-497b-4f33-9185-16e22551a461_res_d3d606d6-4481-4dce-9da2-c6d74df3f8fe",
+      "target": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "id": "xy-edge__55bce465-497b-4f33-9185-16e22551a46155bce465-497b-4f33-9185-16e22551a461_res_d3d606d6-4481-4dce-9da2-c6d74df3f8fe-a4140fcc-bd8e-4458-ac54-a062c1f41c94"
+    },
+    {
+      "source": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "sourceHandle": "a4140fcc-bd8e-4458-ac54-a062c1f41c94_res_2047017f-b5b8-435e-8e13-33ae26d01652",
+      "target": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "id": "xy-edge__a4140fcc-bd8e-4458-ac54-a062c1f41c94a4140fcc-bd8e-4458-ac54-a062c1f41c94_res_2047017f-b5b8-435e-8e13-33ae26d01652-934f953c-df8b-4a36-82e1-52d517ae6e8f"
+    },
+    {
+      "source": "a4140fcc-bd8e-4458-ac54-a062c1f41c94",
+      "sourceHandle": "a4140fcc-bd8e-4458-ac54-a062c1f41c94_res_9eeb705f-fe68-4a44-881c-950d4df8ebbf",
+      "target": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "id": "xy-edge__a4140fcc-bd8e-4458-ac54-a062c1f41c94a4140fcc-bd8e-4458-ac54-a062c1f41c94_res_9eeb705f-fe68-4a44-881c-950d4df8ebbf-934f953c-df8b-4a36-82e1-52d517ae6e8f"
+    },
+    {
+      "source": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "sourceHandle": "934f953c-df8b-4a36-82e1-52d517ae6e8f_res_3bcab4c3-26c6-48f3-88fd-cc3b6f017954",
+      "target": "e074ba20-f4c2-4514-8124-d97dd897cc82",
+      "id": "xy-edge__934f953c-df8b-4a36-82e1-52d517ae6e8f934f953c-df8b-4a36-82e1-52d517ae6e8f_res_3bcab4c3-26c6-48f3-88fd-cc3b6f017954-e074ba20-f4c2-4514-8124-d97dd897cc82"
+    },
+    {
+      "source": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "sourceHandle": "934f953c-df8b-4a36-82e1-52d517ae6e8f_res_21f6a450-758e-4bc4-961e-4a72795a746b",
+      "target": "e074ba20-f4c2-4514-8124-d97dd897cc82",
+      "id": "xy-edge__934f953c-df8b-4a36-82e1-52d517ae6e8f934f953c-df8b-4a36-82e1-52d517ae6e8f_res_21f6a450-758e-4bc4-961e-4a72795a746b-e074ba20-f4c2-4514-8124-d97dd897cc82"
+    },
+    {
+      "source": "934f953c-df8b-4a36-82e1-52d517ae6e8f",
+      "sourceHandle": "934f953c-df8b-4a36-82e1-52d517ae6e8f_res_48f54b57-48fe-4abb-bec8-71bfb2facf5b",
+      "target": "e074ba20-f4c2-4514-8124-d97dd897cc82",
+      "id": "xy-edge__934f953c-df8b-4a36-82e1-52d517ae6e8f934f953c-df8b-4a36-82e1-52d517ae6e8f_res_48f54b57-48fe-4abb-bec8-71bfb2facf5b-e074ba20-f4c2-4514-8124-d97dd897cc82"
+    },
+    {
+      "source": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "sourceHandle": "b4ca768a-90e4-4539-8cae-b97fd93f8152_res_706f0227-30c2-4686-a318-c6be767ffb01",
+      "target": "3cebd5e2-2951-4fc5-80aa-07c84cfb388c",
+      "id": "xy-edge__b4ca768a-90e4-4539-8cae-b97fd93f8152b4ca768a-90e4-4539-8cae-b97fd93f8152_res_706f0227-30c2-4686-a318-c6be767ffb01-3cebd5e2-2951-4fc5-80aa-07c84cfb388c"
+    },
+    {
+      "source": "b4ca768a-90e4-4539-8cae-b97fd93f8152",
+      "sourceHandle": "b4ca768a-90e4-4539-8cae-b97fd93f8152_res_4eac1afc-2cd5-4d48-883a-fc1f6d7fd9dd",
+      "target": "3cebd5e2-2951-4fc5-80aa-07c84cfb388c",
+      "id": "xy-edge__b4ca768a-90e4-4539-8cae-b97fd93f8152b4ca768a-90e4-4539-8cae-b97fd93f8152_res_4eac1afc-2cd5-4d48-883a-fc1f6d7fd9dd-3cebd5e2-2951-4fc5-80aa-07c84cfb388c"
+    },
+    {
+      "source": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "sourceHandle": "df193899-b5da-4a68-a183-1c0e933092ae_res_6fe94e21-60d3-443c-87d6-a34c51870992",
+      "target": "3e5c7b31-3b52-425e-be9b-885499d4c290",
+      "id": "xy-edge__df193899-b5da-4a68-a183-1c0e933092aedf193899-b5da-4a68-a183-1c0e933092ae_res_6fe94e21-60d3-443c-87d6-a34c51870992-3e5c7b31-3b52-425e-be9b-885499d4c290"
+    },
+    {
+      "source": "df193899-b5da-4a68-a183-1c0e933092ae",
+      "sourceHandle": "df193899-b5da-4a68-a183-1c0e933092ae_res_bdae00eb-ccc9-4450-a7ac-3daf3e553412",
+      "target": "3e5c7b31-3b52-425e-be9b-885499d4c290",
+      "id": "xy-edge__df193899-b5da-4a68-a183-1c0e933092aedf193899-b5da-4a68-a183-1c0e933092ae_res_bdae00eb-ccc9-4450-a7ac-3daf3e553412-3e5c7b31-3b52-425e-be9b-885499d4c290"
+    },
+    {
+      "source": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "sourceHandle": "af04c4b5-755b-44b8-b007-af22759ea861_res_e139ab6c-80f0-4715-8351-b77c147c9d90",
+      "target": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "id": "xy-edge__af04c4b5-755b-44b8-b007-af22759ea861af04c4b5-755b-44b8-b007-af22759ea861_res_e139ab6c-80f0-4715-8351-b77c147c9d90-2982e4a3-b9b8-4f0b-b365-a56ad19f5156"
+    },
+    {
+      "source": "af04c4b5-755b-44b8-b007-af22759ea861",
+      "sourceHandle": "af04c4b5-755b-44b8-b007-af22759ea861_res_5565daca-8020-4435-a8dc-764f87d5900f",
+      "target": "2982e4a3-b9b8-4f0b-b365-a56ad19f5156",
+      "id": "xy-edge__af04c4b5-755b-44b8-b007-af22759ea861af04c4b5-755b-44b8-b007-af22759ea861_res_5565daca-8020-4435-a8dc-764f87d5900f-2982e4a3-b9b8-4f0b-b365-a56ad19f5156"
+    },
+    {
+      "source": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "sourceHandle": "6351dce6-c38f-48a5-a959-09d102bb1073_res_a3f0bf5d-37e3-4e67-8c2e-430238a7f752",
+      "target": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "id": "xy-edge__6351dce6-c38f-48a5-a959-09d102bb10736351dce6-c38f-48a5-a959-09d102bb1073_res_a3f0bf5d-37e3-4e67-8c2e-430238a7f752-21ab94b2-85e0-48e8-b404-85effce98816"
+    },
+    {
+      "source": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "sourceHandle": "6351dce6-c38f-48a5-a959-09d102bb1073_res_f985dc2d-8bb0-43f7-ac13-289c93708b21",
+      "target": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "id": "xy-edge__6351dce6-c38f-48a5-a959-09d102bb10736351dce6-c38f-48a5-a959-09d102bb1073_res_f985dc2d-8bb0-43f7-ac13-289c93708b21-21ab94b2-85e0-48e8-b404-85effce98816"
+    },
+    {
+      "source": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "sourceHandle": "21ab94b2-85e0-48e8-b404-85effce98816_res_f46d0249-d260-4d98-897d-0c3f2ac1fcbb",
+      "target": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "id": "xy-edge__21ab94b2-85e0-48e8-b404-85effce9881621ab94b2-85e0-48e8-b404-85effce98816_res_f46d0249-d260-4d98-897d-0c3f2ac1fcbb-9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b"
+    },
+    {
+      "source": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "sourceHandle": "21ab94b2-85e0-48e8-b404-85effce98816_res_5aec49c7-782f-44bf-aa1e-5e3b9593c365",
+      "target": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "id": "xy-edge__21ab94b2-85e0-48e8-b404-85effce9881621ab94b2-85e0-48e8-b404-85effce98816_res_5aec49c7-782f-44bf-aa1e-5e3b9593c365-9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b"
+    },
+    {
+      "source": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "sourceHandle": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_7bf6a3d1-6b1c-4577-9305-6b9fde7a3208",
+      "target": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "id": "xy-edge__9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_7bf6a3d1-6b1c-4577-9305-6b9fde7a3208-6186407e-233a-40e3-881f-5d4d76e5574c"
+    },
+    {
+      "source": "e2cf6d64-a716-4ccc-b385-bc1302d046b5",
+      "sourceHandle": "e2cf6d64-a716-4ccc-b385-bc1302d046b5_res_51edb1a6-a2c0-488b-9859-0ebed8eb7ed6",
+      "target": "33325982-6c30-4680-8734-d67675dc39d1",
+      "id": "xy-edge__e2cf6d64-a716-4ccc-b385-bc1302d046b5e2cf6d64-a716-4ccc-b385-bc1302d046b5_res_51edb1a6-a2c0-488b-9859-0ebed8eb7ed6-33325982-6c30-4680-8734-d67675dc39d1"
+    },
+    {
+      "source": "e2cf6d64-a716-4ccc-b385-bc1302d046b5",
+      "sourceHandle": "e2cf6d64-a716-4ccc-b385-bc1302d046b5_res_e1018c60-d713-4315-bc9f-f1792fe221da",
+      "target": "33325982-6c30-4680-8734-d67675dc39d1",
+      "id": "xy-edge__e2cf6d64-a716-4ccc-b385-bc1302d046b5e2cf6d64-a716-4ccc-b385-bc1302d046b5_res_e1018c60-d713-4315-bc9f-f1792fe221da-33325982-6c30-4680-8734-d67675dc39d1"
+    },
+    {
+      "source": "e2cf6d64-a716-4ccc-b385-bc1302d046b5",
+      "sourceHandle": "e2cf6d64-a716-4ccc-b385-bc1302d046b5_res_170af426-e377-4cb7-90bf-b5eff1c581b7",
+      "target": "47b221f1-57aa-4d42-94cb-77a3639226b3",
+      "id": "xy-edge__e2cf6d64-a716-4ccc-b385-bc1302d046b5e2cf6d64-a716-4ccc-b385-bc1302d046b5_res_170af426-e377-4cb7-90bf-b5eff1c581b7-47b221f1-57aa-4d42-94cb-77a3639226b3"
+    },
+    {
+      "source": "47b221f1-57aa-4d42-94cb-77a3639226b3",
+      "sourceHandle": "47b221f1-57aa-4d42-94cb-77a3639226b3_res_1c724f86-75df-45b4-85c4-f928f10ad19f",
+      "target": "ac5f44cd-1e07-4136-8a6b-6c0945539265",
+      "id": "xy-edge__47b221f1-57aa-4d42-94cb-77a3639226b347b221f1-57aa-4d42-94cb-77a3639226b3_res_1c724f86-75df-45b4-85c4-f928f10ad19f-ac5f44cd-1e07-4136-8a6b-6c0945539265"
+    },
+    {
+      "source": "55bce465-497b-4f33-9185-16e22551a461",
+      "sourceHandle": "55bce465-497b-4f33-9185-16e22551a461_res_e1135e18-b9f0-4385-b036-2dda2fa33458",
+      "target": "58e0116d-b126-4ef7-b61e-bd08f4d06757",
+      "id": "xy-edge__55bce465-497b-4f33-9185-16e22551a46155bce465-497b-4f33-9185-16e22551a461_res_e1135e18-b9f0-4385-b036-2dda2fa33458-58e0116d-b126-4ef7-b61e-bd08f4d06757"
+    },
+    {
+      "source": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "sourceHandle": "b1be898b-b93e-4825-b47f-f3dfff26ca6d_res_e15b0a5d-c483-47a7-8fc2-3c8ae11960ea",
+      "target": "9e1a6c40-b850-45f0-874d-e3eb1c75bc84",
+      "id": "xy-edge__b1be898b-b93e-4825-b47f-f3dfff26ca6db1be898b-b93e-4825-b47f-f3dfff26ca6d_res_e15b0a5d-c483-47a7-8fc2-3c8ae11960ea-9e1a6c40-b850-45f0-874d-e3eb1c75bc84"
+    },
+    {
+      "source": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "sourceHandle": "b1be898b-b93e-4825-b47f-f3dfff26ca6d_res_afaabf53-e9f8-47a6-b508-9e8357761c55",
+      "target": "9e1a6c40-b850-45f0-874d-e3eb1c75bc84",
+      "id": "xy-edge__b1be898b-b93e-4825-b47f-f3dfff26ca6db1be898b-b93e-4825-b47f-f3dfff26ca6d_res_afaabf53-e9f8-47a6-b508-9e8357761c55-9e1a6c40-b850-45f0-874d-e3eb1c75bc84"
+    },
+    {
+      "source": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "sourceHandle": "b1be898b-b93e-4825-b47f-f3dfff26ca6d_res_445759d3-6ffb-45c4-a94a-c9d8ef7bc9da",
+      "target": "9e1a6c40-b850-45f0-874d-e3eb1c75bc84",
+      "id": "xy-edge__b1be898b-b93e-4825-b47f-f3dfff26ca6db1be898b-b93e-4825-b47f-f3dfff26ca6d_res_445759d3-6ffb-45c4-a94a-c9d8ef7bc9da-9e1a6c40-b850-45f0-874d-e3eb1c75bc84"
+    },
+    {
+      "source": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b",
+      "sourceHandle": "9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_4111d3c1-a15f-495e-a08d-581f0b57cefe",
+      "target": "15c71839-33ad-43a5-9ddc-3e39656496d4",
+      "id": "xy-edge__9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b9ff2a399-6a0c-4b48-89e7-f6261cf5fc6b_res_4111d3c1-a15f-495e-a08d-581f0b57cefe-15c71839-33ad-43a5-9ddc-3e39656496d4"
+    },
+    {
+      "source": "21ab94b2-85e0-48e8-b404-85effce98816",
+      "sourceHandle": "21ab94b2-85e0-48e8-b404-85effce98816_res_43a021e3-1041-4874-8408-bde0339ab935",
+      "target": "d8fb60c7-6111-47ea-a7d6-95547c3a5742",
+      "id": "xy-edge__21ab94b2-85e0-48e8-b404-85effce9881621ab94b2-85e0-48e8-b404-85effce98816_res_43a021e3-1041-4874-8408-bde0339ab935-d8fb60c7-6111-47ea-a7d6-95547c3a5742"
+    },
+    {
+      "source": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "sourceHandle": "6351dce6-c38f-48a5-a959-09d102bb1073_res_f1acb575-8c87-4ac1-83d2-144c42eb27b1",
+      "target": "553acad6-c6f8-4acc-9030-7f33685eb02c",
+      "id": "xy-edge__6351dce6-c38f-48a5-a959-09d102bb10736351dce6-c38f-48a5-a959-09d102bb1073_res_f1acb575-8c87-4ac1-83d2-144c42eb27b1-553acad6-c6f8-4acc-9030-7f33685eb02c"
+    },
+    {
+      "source": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958",
+      "sourceHandle": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958_res_a311898b-7b6f-416b-9f5d-47b4400f5557",
+      "target": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "id": "xy-edge__3010993e-73ea-4f2b-b1c0-a3c1d19a69583010993e-73ea-4f2b-b1c0-a3c1d19a6958_res_a311898b-7b6f-416b-9f5d-47b4400f5557-682bb982-9d03-46d9-aa8d-f87a26b60afd"
+    },
+    {
+      "source": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958",
+      "sourceHandle": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958_res_e14e4892-760c-4dd6-a0a5-d375c2cd329b",
+      "target": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "id": "xy-edge__3010993e-73ea-4f2b-b1c0-a3c1d19a69583010993e-73ea-4f2b-b1c0-a3c1d19a6958_res_e14e4892-760c-4dd6-a0a5-d375c2cd329b-682bb982-9d03-46d9-aa8d-f87a26b60afd"
+    },
+    {
+      "source": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958",
+      "sourceHandle": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958_res_06bfd899-76ef-47f0-8b91-78c1095702a7",
+      "target": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "id": "xy-edge__3010993e-73ea-4f2b-b1c0-a3c1d19a69583010993e-73ea-4f2b-b1c0-a3c1d19a6958_res_06bfd899-76ef-47f0-8b91-78c1095702a7-682bb982-9d03-46d9-aa8d-f87a26b60afd"
+    },
+    {
+      "source": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "sourceHandle": "682bb982-9d03-46d9-aa8d-f87a26b60afd_res_47c26d26-c49f-437e-a601-e34c5c5653f7",
+      "target": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "id": "xy-edge__682bb982-9d03-46d9-aa8d-f87a26b60afd682bb982-9d03-46d9-aa8d-f87a26b60afd_res_47c26d26-c49f-437e-a601-e34c5c5653f7-b1be898b-b93e-4825-b47f-f3dfff26ca6d"
+    },
+    {
+      "source": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "sourceHandle": "682bb982-9d03-46d9-aa8d-f87a26b60afd_res_991e37e3-5001-42bd-961c-fce70c903563",
+      "target": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "id": "xy-edge__682bb982-9d03-46d9-aa8d-f87a26b60afd682bb982-9d03-46d9-aa8d-f87a26b60afd_res_991e37e3-5001-42bd-961c-fce70c903563-b1be898b-b93e-4825-b47f-f3dfff26ca6d"
+    },
+    {
+      "source": "682bb982-9d03-46d9-aa8d-f87a26b60afd",
+      "sourceHandle": "682bb982-9d03-46d9-aa8d-f87a26b60afd_res_8358bf63-6d95-49ed-8065-dd09580aa067",
+      "target": "b1be898b-b93e-4825-b47f-f3dfff26ca6d",
+      "id": "xy-edge__682bb982-9d03-46d9-aa8d-f87a26b60afd682bb982-9d03-46d9-aa8d-f87a26b60afd_res_8358bf63-6d95-49ed-8065-dd09580aa067-b1be898b-b93e-4825-b47f-f3dfff26ca6d"
+    },
+    {
+      "source": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "sourceHandle": "6186407e-233a-40e3-881f-5d4d76e5574c_res_2477bfb7-e6d5-4a2c-988b-7384eaaa3e09",
+      "target": "13809212-4b38-424a-a2eb-e0418424d067",
+      "id": "xy-edge__6186407e-233a-40e3-881f-5d4d76e5574c6186407e-233a-40e3-881f-5d4d76e5574c_res_2477bfb7-e6d5-4a2c-988b-7384eaaa3e09-13809212-4b38-424a-a2eb-e0418424d067"
+    },
+    {
+      "source": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "sourceHandle": "6186407e-233a-40e3-881f-5d4d76e5574c_res_821c8fa0-7bf5-4b2d-8762-f078c2f470d7",
+      "target": "13809212-4b38-424a-a2eb-e0418424d067",
+      "id": "xy-edge__6186407e-233a-40e3-881f-5d4d76e5574c6186407e-233a-40e3-881f-5d4d76e5574c_res_821c8fa0-7bf5-4b2d-8762-f078c2f470d7-13809212-4b38-424a-a2eb-e0418424d067"
+    },
+    {
+      "source": "6186407e-233a-40e3-881f-5d4d76e5574c",
+      "sourceHandle": "6186407e-233a-40e3-881f-5d4d76e5574c_res_bb7ac18a-ff1f-42cd-acf9-e323056927a4",
+      "target": "13809212-4b38-424a-a2eb-e0418424d067",
+      "id": "xy-edge__6186407e-233a-40e3-881f-5d4d76e5574c6186407e-233a-40e3-881f-5d4d76e5574c_res_bb7ac18a-ff1f-42cd-acf9-e323056927a4-13809212-4b38-424a-a2eb-e0418424d067"
+    },
+    {
+      "source": "13809212-4b38-424a-a2eb-e0418424d067",
+      "target": "3010993e-73ea-4f2b-b1c0-a3c1d19a6958",
+      "id": "xy-edge__13809212-4b38-424a-a2eb-e0418424d067-3010993e-73ea-4f2b-b1c0-a3c1d19a6958"
+    },
+    {
+      "source": "3e5c7b31-3b52-425e-be9b-885499d4c290",
+      "sourceHandle": "3e5c7b31-3b52-425e-be9b-885499d4c290_res_afc0fca5-0811-4611-a474-b27b875f7258",
+      "target": "7daee60e-8415-435e-9185-7fb29e70973e",
+      "id": "xy-edge__3e5c7b31-3b52-425e-be9b-885499d4c2903e5c7b31-3b52-425e-be9b-885499d4c290_res_afc0fca5-0811-4611-a474-b27b875f7258-7daee60e-8415-435e-9185-7fb29e70973e"
+    },
+    {
+      "source": "3e5c7b31-3b52-425e-be9b-885499d4c290",
+      "sourceHandle": "3e5c7b31-3b52-425e-be9b-885499d4c290_res_c3b8d434-d39b-42fb-bb90-a49f072b62bf",
+      "target": "7daee60e-8415-435e-9185-7fb29e70973e",
+      "id": "xy-edge__3e5c7b31-3b52-425e-be9b-885499d4c2903e5c7b31-3b52-425e-be9b-885499d4c290_res_c3b8d434-d39b-42fb-bb90-a49f072b62bf-7daee60e-8415-435e-9185-7fb29e70973e"
+    },
+    {
+      "source": "7daee60e-8415-435e-9185-7fb29e70973e",
+      "sourceHandle": "7daee60e-8415-435e-9185-7fb29e70973e_res_9e695ab7-9dd2-4e67-b84e-37a385abc279",
+      "target": "1aef9ddf-9dd6-4b78-a668-b7a4703b6a39",
+      "id": "xy-edge__7daee60e-8415-435e-9185-7fb29e70973e7daee60e-8415-435e-9185-7fb29e70973e_res_9e695ab7-9dd2-4e67-b84e-37a385abc279-1aef9ddf-9dd6-4b78-a668-b7a4703b6a39"
+    },
+    {
+      "source": "7daee60e-8415-435e-9185-7fb29e70973e",
+      "sourceHandle": "7daee60e-8415-435e-9185-7fb29e70973e_res_aaad4f2e-eaaa-46eb-ab95-386c466c6dd3",
+      "target": "1aef9ddf-9dd6-4b78-a668-b7a4703b6a39",
+      "id": "xy-edge__7daee60e-8415-435e-9185-7fb29e70973e7daee60e-8415-435e-9185-7fb29e70973e_res_aaad4f2e-eaaa-46eb-ab95-386c466c6dd3-1aef9ddf-9dd6-4b78-a668-b7a4703b6a39"
+    },
+    {
+      "source": "7daee60e-8415-435e-9185-7fb29e70973e",
+      "sourceHandle": "7daee60e-8415-435e-9185-7fb29e70973e_res_684c4771-84ae-4097-b5f3-afb65263a742",
+      "target": "1aef9ddf-9dd6-4b78-a668-b7a4703b6a39",
+      "id": "xy-edge__7daee60e-8415-435e-9185-7fb29e70973e7daee60e-8415-435e-9185-7fb29e70973e_res_684c4771-84ae-4097-b5f3-afb65263a742-1aef9ddf-9dd6-4b78-a668-b7a4703b6a39"
+    },
+    {
+      "source": "47b221f1-57aa-4d42-94cb-77a3639226b3",
+      "sourceHandle": "47b221f1-57aa-4d42-94cb-77a3639226b3_res_b25b1527-d8c8-46a1-9ddd-ac7fc75f33f1",
+      "target": "ac5f44cd-1e07-4136-8a6b-6c0945539265",
+      "id": "xy-edge__47b221f1-57aa-4d42-94cb-77a3639226b347b221f1-57aa-4d42-94cb-77a3639226b3_res_b25b1527-d8c8-46a1-9ddd-ac7fc75f33f1-ac5f44cd-1e07-4136-8a6b-6c0945539265"
+    },
+    {
+      "source": "47b221f1-57aa-4d42-94cb-77a3639226b3",
+      "sourceHandle": "47b221f1-57aa-4d42-94cb-77a3639226b3_res_e42a30d0-ded6-4f74-84d1-20ad8423b0f7",
+      "target": "40b723e3-0fb8-4848-8dfa-bcf804957f1a",
+      "id": "xy-edge__47b221f1-57aa-4d42-94cb-77a3639226b347b221f1-57aa-4d42-94cb-77a3639226b3_res_e42a30d0-ded6-4f74-84d1-20ad8423b0f7-40b723e3-0fb8-4848-8dfa-bcf804957f1a"
+    },
+    {
+      "source": "47b221f1-57aa-4d42-94cb-77a3639226b3",
+      "sourceHandle": "47b221f1-57aa-4d42-94cb-77a3639226b3_res_22457ed8-112d-44db-ae0a-56dea7d91231",
+      "target": "40b723e3-0fb8-4848-8dfa-bcf804957f1a",
+      "id": "xy-edge__47b221f1-57aa-4d42-94cb-77a3639226b347b221f1-57aa-4d42-94cb-77a3639226b3_res_22457ed8-112d-44db-ae0a-56dea7d91231-40b723e3-0fb8-4848-8dfa-bcf804957f1a"
+    },
+    {
+      "source": "40b723e3-0fb8-4848-8dfa-bcf804957f1a",
+      "sourceHandle": "40b723e3-0fb8-4848-8dfa-bcf804957f1a_res_6f3204d9-7b10-4b93-89d4-90005382e66c",
+      "target": "1933cddc-9cb7-4318-8cdd-2056556daddc",
+      "id": "xy-edge__40b723e3-0fb8-4848-8dfa-bcf804957f1a40b723e3-0fb8-4848-8dfa-bcf804957f1a_res_6f3204d9-7b10-4b93-89d4-90005382e66c-1933cddc-9cb7-4318-8cdd-2056556daddc"
+    },
+    {
+      "source": "40b723e3-0fb8-4848-8dfa-bcf804957f1a",
+      "sourceHandle": "40b723e3-0fb8-4848-8dfa-bcf804957f1a_res_05558ab9-83cb-4f2d-8c34-2ec63e42cd50",
+      "target": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "id": "xy-edge__40b723e3-0fb8-4848-8dfa-bcf804957f1a40b723e3-0fb8-4848-8dfa-bcf804957f1a_res_05558ab9-83cb-4f2d-8c34-2ec63e42cd50-d571543a-7aed-4794-ae91-6fb7089511b6"
+    },
+    {
+      "source": "40b723e3-0fb8-4848-8dfa-bcf804957f1a",
+      "sourceHandle": "40b723e3-0fb8-4848-8dfa-bcf804957f1a_res_c123273b-f7d2-4d92-8bf1-9867525dbba2",
+      "target": "d571543a-7aed-4794-ae91-6fb7089511b6",
+      "id": "xy-edge__40b723e3-0fb8-4848-8dfa-bcf804957f1a40b723e3-0fb8-4848-8dfa-bcf804957f1a_res_c123273b-f7d2-4d92-8bf1-9867525dbba2-d571543a-7aed-4794-ae91-6fb7089511b6"
+    },
+    {
+      "source": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "sourceHandle": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc_res_5752dacd-6032-44b7-ba71-7c377245ba2d",
+      "target": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "id": "xy-edge__3c7c33b0-af38-4629-ac4d-67f679e8ddfc3c7c33b0-af38-4629-ac4d-67f679e8ddfc_res_5752dacd-6032-44b7-ba71-7c377245ba2d-6351dce6-c38f-48a5-a959-09d102bb1073"
+    },
+    {
+      "source": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc",
+      "sourceHandle": "3c7c33b0-af38-4629-ac4d-67f679e8ddfc_res_0e30b1bf-0c7f-4d34-a551-c0d98d01841d",
+      "target": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "id": "xy-edge__3c7c33b0-af38-4629-ac4d-67f679e8ddfc3c7c33b0-af38-4629-ac4d-67f679e8ddfc_res_0e30b1bf-0c7f-4d34-a551-c0d98d01841d-6351dce6-c38f-48a5-a959-09d102bb1073"
+    },
+    {
+      "source": "590b8c4b-fe91-4a2d-8803-bedf2477e21b",
+      "sourceHandle": "590b8c4b-fe91-4a2d-8803-bedf2477e21b_res_64c44af2-402f-4ca9-b7a7-4b071130ad27",
+      "target": "6351dce6-c38f-48a5-a959-09d102bb1073",
+      "id": "xy-edge__590b8c4b-fe91-4a2d-8803-bedf2477e21b590b8c4b-fe91-4a2d-8803-bedf2477e21b_res_64c44af2-402f-4ca9-b7a7-4b071130ad27-6351dce6-c38f-48a5-a959-09d102bb1073"
+    }
+  ],
+  "functions": [
+    {
+      "name": "Supervisor",
+      "isIncluded": true,
+      "id": "supervisor",
+      "exitNodes": [
+        "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b"
+      ],
+      "nodes": [
+        {
+          "id": "1a04aa1d-b7fa-4540-b9e3-68c754440257",
+          "type": "dialogue_entry",
+          "position": {
+            "x": 1150.8333333333335,
+            "y": 12
+          },
+          "data": {
+            "number": 33
+          },
+          "measured": {
+            "width": 406,
+            "height": 99
+          }
+        },
+        {
+          "id": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "type": "dialogue_node",
+          "position": {
+            "x": 915.3333333333334,
+            "y": 311
+          },
+          "data": {
+            "number": 1,
+            "responses": [
+              {
+                "id": "39703445-8e38-4999-89e3-c80937c051b1",
+                "content": "yes Or okay",
+                "happy": false
+              },
+              {
+                "id": "59866d13-247c-4e37-bfcf-1a88a26006a1",
+                "content": "Any user response including skip the quesiton or move to the next question or speak to AI.",
+                "happy": false
+              },
+              {
+                "id": "a569e02c-bbe8-4afc-8086-ea2d21ebdd16",
+                "content": "No",
+                "happy": false
+              }
+            ],
+            "content": "That is a great question. I don’t have that information on hand right now, but a recruiter will get back to you with the answer right after this conversation. Does that sound good? ",
+            "long": false,
+            "dynamic": false,
+            "keywords": [],
+            "hasAnyResponse": true,
+            "canRevisit": false,
+            "custom_bucketing": ""
+          },
+          "measured": {
+            "width": 482,
+            "height": 401
+          },
+          "selected": false
+        },
+        {
+          "id": "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b",
+          "type": "function_output",
+          "position": {
+            "x": 686.4427270684043,
+            "y": 1012.7875910152602
+          },
+          "data": {
+            "number": 3,
+            "name": "Return to next node"
+          },
+          "measured": {
+            "width": 406,
+            "height": 182
+          }
+        },
+        {
+          "id": "adbc70b6-5128-44d9-a3f5-e392c4893a17",
+          "type": "end_call",
+          "position": {
+            "x": 1426.965586868258,
+            "y": 996.4673556098064
+          },
+          "data": {
+            "number": 84,
+            "dynamic": false,
+            "content": "No problem. A member of our recruiting team will reach out to you directly. We appreciate your time and look forward to continuing the conversation soon. Goodbye! "
+          },
+          "measured": {
+            "width": 498,
+            "height": 282
+          },
+          "selected": false
+        }
+      ],
+      "edges": [
+        {
+          "source": "1a04aa1d-b7fa-4540-b9e3-68c754440257",
+          "sourceHandle": null,
+          "target": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "targetHandle": null,
+          "id": "reactflow__edge-1a04aa1d-b7fa-4540-b9e3-68c754440257abb47588-8761-4b6b-b941-a4e0195058eb"
+        },
+        {
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_39703445-8e38-4999-89e3-c80937c051b1",
+          "target": "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b",
+          "targetHandle": null,
+          "id": "reactflow__edge-abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_39703445-8e38-4999-89e3-c80937c051b1-ef877ca8-04dd-497f-a6f3-8cbd5ed8629b"
+        },
+        {
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_59866d13-247c-4e37-bfcf-1a88a26006a1",
+          "target": "ef877ca8-04dd-497f-a6f3-8cbd5ed8629b",
+          "id": "xy-edge__abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_59866d13-247c-4e37-bfcf-1a88a26006a1-ef877ca8-04dd-497f-a6f3-8cbd5ed8629b"
+        },
+        {
+          "source": "abb47588-8761-4b6b-b941-a4e0195058eb",
+          "sourceHandle": "abb47588-8761-4b6b-b941-a4e0195058eb_res_a569e02c-bbe8-4afc-8086-ea2d21ebdd16",
+          "target": "adbc70b6-5128-44d9-a3f5-e392c4893a17",
+          "id": "xy-edge__abb47588-8761-4b6b-b941-a4e0195058ebabb47588-8761-4b6b-b941-a4e0195058eb_res_a569e02c-bbe8-4afc-8086-ea2d21ebdd16-adbc70b6-5128-44d9-a3f5-e392c4893a17"
+        }
+      ]
+    },
+    {
+      "id": "addOrMoveToNext",
+      "isIncluded": true,
+      "name": "Add or move to next",
+      "exitNodes": [],
+      "nodes": [],
+      "edges": []
+    },
+    {
+      "id": "faqs",
+      "isIncluded": true,
+      "name": "FAQs",
+      "nodes": [
+        {
+          "id": "9d0eebd5-0996-4c79-a714-76b5614b5570",
+          "type": "dialogue_entry",
+          "position": {
+            "x": 0,
+            "y": 0
+          },
+          "data": {
+            "number": 10
+          },
+          "measured": {
+            "width": 405,
+            "height": 98
+          }
+        },
+        {
+          "id": "b96cfc80-4444-44d2-8ce9-4dbb7619ac1f",
+          "type": "question_answer",
+          "position": {
+            "x": 318.8091054994575,
+            "y": 258.18469953213435
+          },
+          "data": {
+            "responses": [],
+            "questionAnswer": {
+              "question": "Can i speak to a human recruiter?",
+              "answer": "No problem. A member of our recruiting team will reach out to you directly. We appreciate your time and look forward to continuing the conversation soon."
+            },
+            "number": 12,
+            "nodeEndCall": true
+          },
+          "measured": {
+            "width": 605,
+            "height": 421
+          },
+          "selected": false
+        },
+        {
+          "id": "fe509368-addf-469a-a02d-c8e91f73b2d7",
+          "type": "question_answer",
+          "position": {
+            "x": -483.43262490911786,
+            "y": 268.3294826593287
+          },
+          "data": {
+            "number": 76,
+            "responses": [
+              {
+                "id": "d318c941-0584-4f0b-b8ec-5dcd88062a33",
+                "content": "Any user response including skip the quesiton or move to the next question or speak to AI."
+              },
+              {
+                "id": "689488e0-5c9d-4d37-be93-75d862221617",
+                "content": "yes"
+              },
+              {
+                "id": "9218c6cf-eb3d-4976-aba5-526f5cb7e481",
+                "content": "no"
+              }
+            ],
+            "questionAnswer": {
+              "question": "Who is this?",
+              "answer": "Ava with the OnTrac Recruitment team reaching out to discuss a Package Handler job opportunity. Is now still a good time to talk?"
+            }
+          },
+          "measured": {
+            "width": 605,
+            "height": 421
+          },
+          "selected": false
+        },
+        {
+          "id": "7334bfc9-1f8f-4935-9298-c7170f4eb1cf",
+          "type": "question_answer",
+          "position": {
+            "x": 363.9668215943995,
+            "y": 865.1658212730517
+          },
+          "data": {
+            "number": 77,
+            "responses": [
+              {
+                "id": "3299819a-9d03-4267-a3ab-d080cab4ed12",
+                "content": "Any user response including skip the quesiton or move to the next question or speak to AI."
+              },
+              {
+                "id": "6d55d2c0-6b16-4029-a4cc-bed58720dc00",
+                "content": "yes"
+              },
+              {
+                "id": "b782896b-5b2f-451c-86a2-bde7eca50530",
+                "content": "no"
+              }
+            ],
+            "questionAnswer": {
+              "question": "What is the hours or shift?",
+              "answer": "This is a part-time position. The hours are 5:30 AM to 9:30 AM or until end of shift. We have 3 shift options:\n1) Sunday – Thursday\n2) Tuesday – Saturday\n3) Friday – Monday\nWhich option works best for you?"
+            }
+          },
+          "measured": {
+            "width": 605,
+            "height": 421
+          },
+          "selected": false
+        },
+        {
+          "id": "53954273-7474-47ca-bb18-722253ce59e7",
+          "type": "question_answer",
+          "position": {
+            "x": -472.7291048449396,
+            "y": 956.8174113926949
+          },
+          "data": {
+            "number": 78,
+            "responses": [
+              {
+                "id": "baa97cd8-c76e-4500-a95d-02888b447d5b",
+                "content": "Any user response including skip the quesiton or move to the next question or speak to AI."
+              },
+              {
+                "id": "4fe60e9f-3c7f-4bbe-a8ae-3b294ef6714f",
+                "content": "yes"
+              },
+              {
+                "id": "e8cee05c-e16f-46bc-8dca-0f1cdd8dddf5",
+                "content": "no"
+              }
+            ],
+            "questionAnswer": {
+              "question": "Where is the position location?",
+              "answer": "Our warehouse is located at 9774 Calabash Ave Fontana, CA 92335. Does that sound good?"
+            }
+          },
+          "measured": {
+            "width": 605,
+            "height": 421
+          },
+          "selected": true
+        },
+        {
+          "id": "ed573db2-45c0-4215-84b0-9c10ab32b3de",
+          "type": "question_answer",
+          "position": {
+            "x": -1364.742103103665,
+            "y": 840.5118876875671
+          },
+          "data": {
+            "number": 79,
+            "responses": [
+              {
+                "id": "b7946509-fb44-406d-8efc-f491a2f8ee06",
+                "content": "Any user response including skip the quesiton or move to the next question or speak to AI."
+              },
+              {
+                "id": "6a1f14ce-2bd0-4389-8255-2f63ee0ac333",
+                "content": "yes"
+              },
+              {
+                "id": "e6c86091-48f5-445b-b928-bee4888d60e5",
+                "content": "no"
+              }
+            ],
+            "questionAnswer": {
+              "question": "Is this a full time or part time position?",
+              "answer": "This is a part time position. Does that sound good?"
+            }
+          },
+          "measured": {
+            "width": 605,
+            "height": 421
+          },
+          "selected": false
+        },
+        {
+          "id": "0005497b-9f30-4bbb-8c76-0bf0cccc1d44",
+          "type": "question_answer",
+          "position": {
+            "x": 1115.8793063065814,
+            "y": 796.021141824828
+          },
+          "data": {
+            "number": 85,
+            "responses": [
+              {
+                "id": "04200a92-fb54-4c8f-a388-c1cd491f4dd2",
+                "content": "Any user response including skip the quesiton or move to the next question or speak to AI."
+              },
+              {
+                "id": "a52190c3-436d-4041-b35d-7f5d935564ba",
+                "content": "yes"
+              },
+              {
+                "id": "6915c216-7802-4070-89af-a550c90472f7",
+                "content": "no"
+              }
+            ],
+            "questionAnswer": {
+              "question": "What is the pay?",
+              "answer": "The pay for this position is $18.50 per hour. Does this work for you?"
+            }
+          },
+          "measured": {
+            "width": 605,
+            "height": 421
+          },
+          "selected": false
+        }
+      ],
+      "edges": [],
+      "exitNodes": []
+    }
+  ],
+  "nodeGroups": [],
+  "variables": {
+    "First Name": "first_name",
+    "Last Name": "last_name"
+  },
+  "callSettings": {
+    "outbound_phone_number": "+16505499527",
+    "first_message": "Hi {first_name}, this is Ava with OnTrac Recruiting following up on your application for the Package Handler role at our Fontana, CA 92335 location. We are urgently hiring. Reply YES to begin a quick 3-minute Ai powered text screen. Please complete within 24 hours to be considered. Reply STOP to unsubscribe. Message and data rates may apply.\n",
+    "reminder_text": "Hi {first_name}, just following up about completing a quick 3-minute Ai powered text screen for the Package Handler role with OnTrac. You can start your screen at any time by replying, YES. Reply STOP to unsubscribe. Message and data rates may apply.",
+    "post_call_text": "",
+    "nudge_message": "Hi {first_name}, we noticed you started the interview process for the package handler role but haven't completed it yet. Would you like to continue? If so, reply yes and you will start from where you left off.",
+    "max_reminders": 3,
+    "reminder_frequency_days": 2,
+    "custom_general_based_bucketing": "",
+    "retry_attempts": 3,
+    "retry_interval_minutes": 0.2,
+    "long_stage_speechModel": "experimental_conversations",
+    "long_stage_speechTimeout_secs": 3,
+    "long_stage_hints": "Yes, No, Hello, Yeah, Sure, Go ahead, Move to the next one, That sounds good, Yes this is she, Yes this is her, Yes I do, No I don't, I understand, I agree, That’s correct, Okay, Alright, Definitely, Absolutely, Of course, Sure thing, Fine, No problem, Yes I can, Yes I will, No I won’t, Not at the moment, I can do that, I cannot do that, I’m interested, I’m not interested, That works for me, That doesn’t work for me, I need more information, I’m available, I’m not available, Yes I have, No I haven’t, Yes I am, No I am not, I can verify, I cannot verify, I have it, I don't have it, I need time, I'm ready, I do, Yes is this who is this, move to the next question, One, Two, Three, Four, Five, 1,2,3,4,5",
+    "short_stage_speechModel": "phone_call",
+    "short_stage_speechTimeout_secs": 1,
+    "short_stage_hints": "Yes, No, Hello, Yeah, Sure, Go ahead, Move to the next one, That sounds good, Yes this is she, Yes this is her, Yes I do, No I don't, I understand, I agree, That’s correct, Okay, Alright, Definitely, Absolutely, Of course, Sure thing, Fine, No problem, Yes I can, Yes I will, No I won’t, Not at the moment, I can do that, I cannot do that, I’m interested, I’m not interested, That works for me, That doesn’t work for me, I need more information, I’m available, I’m not available, Yes I have, No I haven’t, Yes I am, No I am not, I can verify, I cannot verify, I have it, I don't have it, I need time, I'm ready, I do, Yes is this who is this, move to the next question,One, Two, Three, Four, Five, 1,2,3,4,5",
+    "short_stage_enhanced_speechModel": true,
+    "base_audio_recordings_hosted": "https://reports.symbalhealth.com/api/flows/audio/2725/prod",
+    "audio_recording_after_60sec_mark": "https://pranaymanocha.github.io/PennMed-CNA+PCT/silent_audio.mp3",
+    "just_checking_in": "https://pranaymanocha.github.io/PennMed-CNA+PCT_final/repeatCheckingIn.mp3",
+    "havent_heard_response_yet": "https://pranaymanocha.github.io/penn-med-advisor-pos-calls-female-Jul22/node126.mp3",
+    "begin_return_to_previous_question": {},
+    "end_return_to_previous_question": {},
+    "is_prod": false,
+    "voice_id": "mgoXWmnyPRIPiahWawss",
+    "flow_mode": "texting"
+  }
+}

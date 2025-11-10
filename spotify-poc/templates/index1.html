@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Song Player</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1DB954;
+    }
+
+    .player {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    iframe {
+      border-radius: 10px;
+      border: none;
+      width: 300px;
+      height: 380px;
+    }
+
+    .song-list {
+      max-width: 500px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 10px 0;
+    }
+
+    .song-item {
+      padding: 12px 20px;
+      cursor: pointer;
+      border-bottom: 1px solid #eee;
+      transition: background-color 0.2s;
+    }
+
+    .song-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    .song-item:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Spotify Song Player 🎵</h1>
+
+  <!-- Currently Playing Section -->
+  <div class="player">
+    <h3>Now Playing:</h3>
+    <iframe id="spotify-player"
+      src="https://open.spotify.com/embed/track/4uLU6hMCjMI75M1A2tKUQC"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"></iframe>
+  </div>
+
+  <!-- Song List -->
+  <div class="song-list">
+    <div class="song-item" onclick="playSong('4uLU6hMCjMI75M1A2tKUQC')">1. Never Gonna Give You Up - Rick Astley</div>
+    <div class="song-item" onclick="playSong('3n3Ppam7vgaVa1iaRUc9Lp')">2. Bohemian Rhapsody - Queen</div>
+    <div class="song-item" onclick="playSong('7ouMYWpwJ422jRcDASZB7P')">3. Shape of You - Ed Sheeran</div>
+    <div class="song-item" onclick="playSong('0VjIjW4GlUZAMYd2vXMi3b')">4. Blinding Lights - The Weeknd</div>
+    <div class="song-item" onclick="playSong('3AJwUDP919kvQ9QcozQPxg')">5. Let It Be - The Beatles</div>
+    <div class="song-item" onclick="playSong('0eGsygTp906u18L0Oimnem')">6. Smells Like Teen Spirit - Nirvana</div>
+    <div class="song-item" onclick="playSong('1AhDOtG9vPSOmsWgNW0BEY')">7. Hotel California - Eagles</div>
+    <div class="song-item" onclick="playSong('1lCRw5FEZ1gPDNPzy1K4zW')">8. Rolling in the Deep - Adele</div>
+    <div class="song-item" onclick="playSong('2VxeLyX666F8uXCJ0dZF8B')">9. Someone Like You - Adele</div>
+    <div class="song-item" onclick="playSong('2takcwOaAZWiXQijPHIx7B')">10. Imagine - John Lennon</div>
+  </div>
+
+  <script>
+    // Simple function to update the player iframe source
+    function playSong(trackId) {
+      const player = document.getElementById('spotify-player');
+      player.src = `https://open.spotify.com/embed/track/${trackId}`;
+    }
+  </script>
+
+</body>
+</html>
